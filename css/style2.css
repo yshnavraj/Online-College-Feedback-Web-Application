@@ -1,0 +1,39 @@
+.body{
+    background-color: #a3c2c2;
+    white-space: nowrap;
+}
+
+.admin-login-form{
+    padding-top: 10%;
+}
+legend {  
+    display: block; 
+    padding-left: 10px; 
+    padding-right: 10px; 
+    border: 3px solid green; 
+    background-color:tomato; 
+    color:black;
+    text-align: left;
+    line-height: 20px;
+} 
+.button {
+    display: inline-block;
+    border: none;
+    padding: 8px 14px;
+    margin: 0;
+    border-radius: 6px;
+    text-decoration: none;
+    background: #4d94ff;
+    transition: background-color .3s linear;
+    color: black;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    cursor: pointer;
+    text-align: center;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+.button:hover {
+    background: #0069ed;
+}
